@@ -1,0 +1,65 @@
+body {
+	margin: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar	{
+	background-image: url("images/ramen.webp")
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+}
+
+.card {
+	width: 400px;
+    margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	background: #faf3dd;
+	color: #2b2839;
+	border-top: 6px dotted #ffa69e;
+	border-bottom: 6px dotted #ffa69e;
+	font-size: 15px;
+}
+
+#header {
+	displAy: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+.name {
+	text-shadow: 2px 3px 2px lightblue;
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+
+#fullname {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: start;
+	font-size: 30px;
+	margin-top: 02px;
+}
+
+.job {
+	margin-top: 2px;
+
+}
+
+.socials {
+	width: 5px;
+	height: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	font-size: 5px;
+
+}
+
+.contacts {
+	font-size: 11px;
+}
+
