@@ -3,50 +3,47 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.card {
+#cards {
 	width: 400px;
 	height: 250px;
 	margin: 0 auto;
-	padding: 30px 10px 5px 10px;
+	padding: 25px 20px;
 	border-radius: 10px;
 	background: #faf3dd;
 	color: #2b2839;
 	border-top: 6px dotted #ffa69e;
 	border-bottom: 6px dotted #ffa69e;
 	font-size: 15px;
+	display: inline-flex;
 }
 
-#imginfo {
+.left {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
-	align-items: stretch;
+	align-items: center;
 }
 
-.avatar	{
-	background-image: url("images/ramen.webp")
-	background-size: cover;
-	width: 150px;
-	height: 150px;
-	border-radius: 100px;
-}
-
-
-.romaji {
-	text-shadow: 2px 3px 2px lightblue
-}
-
-#details {
+.right {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: stretch;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: end;
 	font-size: 10px;
 }
 
+#ramen-img {
+	background-image: url("images/ramen.webp");
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 
-a img {
-	max-width: 40px; 
-	height: auto;
 }
 
+.socials {
+	width: 50px;
+	display: flex;
+	flex-direction: row;
+
+
+}
