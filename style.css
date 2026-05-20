@@ -4,6 +4,9 @@ body {
 }
 
 #cards {
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-evenly;
 	width: 400px;
 	height: 250px;
 	margin: 0 auto;
@@ -14,7 +17,6 @@ body {
 	border-top: 6px dotted #ffa69e;
 	border-bottom: 6px dotted #ffa69e;
 	font-size: 15px;
-	display: inline-flex;
 }
 
 .left {
@@ -27,9 +29,24 @@ body {
 .right {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	align-items: end;
+	justify-content: start;
+	align-items: center;
 	font-size: 10px;
+}
+
+h1 {
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-top: 0px;
+}
+
+address {
+	text-align: center;
+	margin-top: 21px;
+	color: black;
 }
 
 #ramen-img {
@@ -37,13 +54,12 @@ body {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-
+}
+.social-icons {
+	width: 50px;
 }
 
-.socials {
-	width: 50px;
-	display: flex;
-	flex-direction: row;
-
-
+a {
+	text-decoration: none;
+	color: inherit;
 }
