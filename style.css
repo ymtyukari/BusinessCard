@@ -3,15 +3,20 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#cards {
-	display: flex;
-	/* flex-direction: row; */
-	justify-content: space-evenly;
+.avatar	{
+	width: 180px;
+	height: 150;
+	border-radius: 50px;
+}
+
+.card {
 	width: 400px;
-	height: 250px;
-	margin: 0 auto;
-	padding: 25px 20px;
+    margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
 	border-radius: 10px;
+	text-align: center;
 	background: #faf3dd;
 	color: #2b2839;
 	border-top: 6px dotted #ffa69e;
@@ -19,47 +24,16 @@ body {
 	font-size: 15px;
 }
 
-.left {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.right {
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	align-items: center;
-	font-size: 10px;
-}
-
-h1 {
-	margin-top: 60px;
-	margin-bottom: 0px;
-}
-
-h2 {
-	margin-top: 0px;
-}
-
-address {
-	text-align: center;
-	margin-top: 21px;
-	color: black;
-}
-
-#ramen-img {
-	background-image: url("images/ramen.webp");
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-}
-.social-icons {
+.socials {
 	width: 50px;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;
+.contacts {
+	font-size: 11px;
+}
+
+#borderimg {
+  border: 10px solid transparent; /* Required for border-image */
+  padding: 15px;
+  border-image: url(border.png) 30 round;
 }
